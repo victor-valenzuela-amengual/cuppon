@@ -1,0 +1,21 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: wheat;
+}
+.precios{
+    display: inline-flex;
+    color: green;    
+}
+footer{
+    margin-top: 10;
+    /* background-color: whitesmoke;   */
+    height: 60px; 
+    color: white;
+}
+footer p{
+    text-align: center;
+    padding-top: 20px;
+}
+a:hover{
+    color: blue;
+}
