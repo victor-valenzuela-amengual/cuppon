@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bootstrap</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <script src="https://kit.fontawesome.com/e0bb259c63.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-success" >
+        <div class="container-fluid px-4">
+            <a class="navbar-brand text-white fw-bold" href="#">Cuppon</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+                aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse flex-grow-0" id="navbarTogglerDemo02">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#">Enlace</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled text-white">Deshabilitado</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+        <div class="row">
+            <!-- col-xs-12 col-lg-4..." adaptar a todo tipo de pantalla (responsivo) my=margen arriba-abajo-->
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/sillon1.png" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Sillón azul terciopelo importado China</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">Almacenes El Dorado</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> El Salto 400 - Independencia
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/cama.jpg" class="card-img-top" alt="cama niño" height="150">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Cama niño madera noble de la Selva Negra</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">Mueblería El Zorzal</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> Arturo Prat 1456- Santiago
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/mesa.jpeg" class="card-img-top" alt="mesa" height="150">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Mesa de centro madera nogal</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">La mesería de Katia</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> Providencia 1458- Providencia
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/vabgog.jpg" class="card-img-top" alt="pintura poster van-gogh" height="150">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Poster enmarcado de pintura Van-Gogh</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">Galería Europea</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> Lastarria 25 - Santiago
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/lampara.jpg" class="card-img-top" alt="aplique metalico" height="150">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Aplique metálico con forma de pirámide</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">Iluminacion Persa</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> Alibaba - Patronato
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-12 col-lg-4 mt-4">
+                <div class="card mx-auto" style="width: 18rem;">
+                    <img src="/imgs/notebook.jpeg" class="card-img-top" alt="notebook" height="150">
+                    <div class="card-body">
+                        <h5 class="card-title fw-light fs-4">Notebook plateado para el hogar</h5>
+                        <p class="card-text fw-lighter fs-5 text-muted mb-0 ms-1">Electrónica PC</p>
+                        <p class="card-text fw-lighter fs-6 text-muted">
+                            <i class="fa-sharp fa-solid fa-location-dot"></i> A. Vespucio 159 - Las Condes
+                        </p>
+                        <hr>
+                        <ul class="list-inline text-end mb-0">
+                            <li class="list-inline-item">$20.000</li>
+                            <li class="list-inline-item fs-5 text-success">$50.000</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container p-4 my-4 bg-success w-50">
+        <form>
+            <div class="mb-3 text-white text-center">
+                <h5>
+                    Recibe cupones en tu correo
+                </h5>
+            </div>
+            <div class="mb-3">
+                <input type="text" class="form-control" placeholder="Nombre">
+            </div>
+            <div class="mb-3 ">
+                <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="exampleInputEmail"
+                    placeholder="Correo electrónico">
+            </div>
+            <div class="text-center">
+                <button type="submit" class="btn btn-primary col-1">Enviar</button>
+            </div>
+
+        </form>
+    </div>
+
+
+    <!-- <main>
+
+    </main>
+    <section>
+
+    </section> -->
+    <footer>
+        <p><a href="" target="_self">Desarrollado por VVA</a></p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
